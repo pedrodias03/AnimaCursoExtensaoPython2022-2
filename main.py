@@ -1,19 +1,37 @@
 #Se eu quisese exibir números de 1 a 10?
 
-print('Aqui mostramos de maneira "rústica"')
-print("1")
-print("2")
-print("3")
-print("4")
-print("5")
-print("6")
-print("7")
-print("8")
-print("9")
-print("10")
+contador = 1
 
-print("Aqui é do jeito certo...")
-numero = 1
-print(numero)
-numero = numero + 1
-print (numero)
+# Exibir de 1 até 10 repetidamente
+while (contador <= 10):
+  print(contador)
+  contador = contador + 1  #contador += 1
+
+  # Laço for (python for = for each)
+fruta = "morango"
+print(fruta)
+
+fruta1 = "morango"
+fruta2 = "laranja"
+fruta3 = "pêra"
+
+#Lista
+frutas = ["morango", "laranja", "pêra"]
+
+#Mostra todas
+print(frutas)
+
+#Quero exibir apenas a 3a fruta (pêra)
+print(frutas[2])
+
+#Exibir quantas frutas tem na minha lista?
+print(len(frutas)) #length = tamanho
+print(frutas)
+
+print(frutas[0])
+print(frutas[1])
+print(frutas[2])
+print(frutas[3])
+#print(frutas[4])
+
+i=0
